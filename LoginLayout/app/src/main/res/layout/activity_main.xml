@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:stretchColumns="*"
+        >
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:layout_span="3"
+                android:layout_gravity="center"
+                ></TextView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Username:"
+                >
+
+            </TextView>
+            <EditText
+                android:text="Enter your username"
+                android:layout_span="2"
+                >
+
+            </EditText>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Username:"
+                >
+
+            </TextView>
+            <EditText
+                android:text="Enter your password"
+                android:layout_span="2"
+
+                >
+
+            </EditText>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50px"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:weightSum="5"
+        >
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:background="@color/black"
+            android:text="Dang nhap"
+            app:backgroundTint="@color/black">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:background="@color/black"
+
+            android:text="Dang ky"
+            app:backgroundTint="@color/black">
+
+        </Button>
+        <Button
+            android:layout_marginLeft="10px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quen mk"
+            android:background="@color/black"
+            app:backgroundTint="@color/black">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
