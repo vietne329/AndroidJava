@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EX3</string>
+    <string-array name="technology">
+        <item>Android</item>
+        <item>Java</item>
+        <item>C++</item>
+        <item>Python</item>
+        <item>C#</item>
+        <item>.NET</item>
+        <item>Javascript</item>
+    </string-array>
+</resources>

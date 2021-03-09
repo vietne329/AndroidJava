@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:text="Example for DatePicker and TimePicker"
+        android:id="@+id/txt1"
+        android:gravity="center"
+
+        ></TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDate"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentLeft="true"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btDate"
+        android:text="SELECT DATE"
+        android:layout_toRightOf= "@+id/txtDate"
+        android:layout_alignBottom="@+id/txtDate"
+        ></Button>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTime"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentLeft="true"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btTime"
+        android:text="SELECT Time"
+        android:layout_toRightOf= "@+id/txtTime"
+        android:layout_alignBottom="@+id/txtTime"
+        ></Button>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!-- TextView,Button, EditText, ImageView, ImageButton -->
+
+    <TextView
+        android:id="@+id/textview"
+        android:text="This is text view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:text="OKEY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <EditText
+        android:id="@+id/edittext"
+        android:hint="Plz input something!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        >
+
+    </ImageView>
+
+    <ImageButton
+        android:id="@+id/imagebutton"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="50dp"
+        android:adjustViewBounds="true"
+        android:layout_height="30dp">
+    </ImageButton>
+
+
+
+</LinearLayout>
